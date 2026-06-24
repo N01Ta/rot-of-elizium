@@ -1,0 +1,6 @@
+{
+    "name": "rot-of-elizium-ss14-bridge",
+    "private": true,
+    "type": "module",
+    "main": "index.js"
+}

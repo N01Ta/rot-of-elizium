@@ -47,8 +47,6 @@ access.log
 /cache/
 public/css/user.css
 public/error/
-/plugins/
-!/plugins/ss14-bridge/
 /data
 /default/scaffold
 public/scripts/extensions/third-party
