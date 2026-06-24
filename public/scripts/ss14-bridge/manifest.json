@@ -1,0 +1,14 @@
+{
+    "display_name": "Rot of Elizium: SS14 Bridge",
+    "loading_order": 3,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "Rot of Elizium",
+    "version": "0.1.0",
+    "homePage": "",
+    "hooks": {
+        "activate": "init"
+    }
+}

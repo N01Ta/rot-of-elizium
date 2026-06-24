@@ -1,0 +1,97 @@
+<div class="roe-bridge">
+    <div class="inline-drawer">
+        <div class="inline-drawer-toggle inline-drawer-header">
+            <div class="roe-title">
+                <span class="roe-mark" aria-hidden="true"></span>
+                <span>SS14 Bridge</span>
+                <span id="roe_bridge_status" class="roe-status is-offline">offline</span>
+            </div>
+            <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
+        </div>
+        <div class="inline-drawer-content">
+            <div class="roe-toolbar">
+                <label class="checkbox_label">
+                    <input id="roe_enabled" type="checkbox">
+                    <span>Слушать игровой чат</span>
+                </label>
+                <select id="roe_send_mode" class="text_pole" aria-label="Режим отправки">
+                    <option value="confirm">Ждать подтверждение</option>
+                    <option value="auto">Отправлять сразу</option>
+                </select>
+            </div>
+
+            <div class="roe-section-head">
+                <span>Что слушать</span>
+            </div>
+            <div class="roe-channel-switches">
+                <label class="checkbox_label">
+                    <input id="roe_listen_speech" type="checkbox">
+                    <span>Рядом</span>
+                </label>
+                <label class="checkbox_label">
+                    <input id="roe_listen_whisper" type="checkbox">
+                    <span>Шёпот</span>
+                </label>
+                <label class="checkbox_label">
+                    <input id="roe_listen_radio" type="checkbox">
+                    <span>Радио</span>
+                </label>
+                <label class="checkbox_label">
+                    <input id="roe_listen_announcement" type="checkbox">
+                    <span>Объявления</span>
+                </label>
+            </div>
+
+            <div class="roe-section-head">
+                <span>Персонажи</span>
+                <button id="roe_add_listener" class="menu_button" type="button">
+                    <i class="fa-solid fa-plus"></i>
+                    <span>Добавить</span>
+                </button>
+            </div>
+            <div id="roe_listener_list" class="roe-listeners"></div>
+            <div class="roe-hint">Имя сравнивается с именем, показанным в игровом чате.</div>
+
+            <div class="roe-grid">
+                <label>
+                    <span>Радиоключ ответа</span>
+                    <input id="roe_radio_key" class="text_pole" type="text" maxlength="2" placeholder="; или :h">
+                </label>
+                <label>
+                    <span>Максимум символов</span>
+                    <input id="roe_max_length" class="text_pole" type="number" min="20" max="1000" step="10">
+                </label>
+            </div>
+
+            <div class="roe-draft">
+                <div class="roe-section-head">
+                    <span>Ответ в игру</span>
+                    <span id="roe_draft_channel" class="roe-channel">нет ответа</span>
+                </div>
+                <textarea id="roe_draft_text" class="text_pole" rows="4" placeholder="Сгенерированный ответ появится здесь"></textarea>
+                <div class="roe-actions">
+                    <button id="roe_send_draft" class="menu_button" type="button" disabled>
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <span>Отправить в игру</span>
+                    </button>
+                    <button id="roe_clear_log" class="menu_button" type="button" title="Очистить журнал">
+                        <i class="fa-solid fa-trash"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="roe-inject">
+                <div class="roe-section-head">
+                    <span>Клиент SS14</span>
+                    <span id="roe_inject_status" class="roe-channel">не подключён</span>
+                </div>
+                <button id="roe_inject_bridge" class="menu_button" type="button">
+                    <i class="fa-solid fa-syringe"></i>
+                    <span>Найти клиент и подключить bridge</span>
+                </button>
+            </div>
+
+            <div id="roe_event_log" class="roe-log" aria-live="polite"></div>
+        </div>
+    </div>
+</div>

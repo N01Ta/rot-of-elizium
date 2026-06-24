@@ -1,0 +1,43 @@
+
+> rot-of-elizium@1.18.0 start
+> node server.js
+
+Node version: v22.16.0. Running in undefined environment. Server directory: C:\Users\N01Ta\Desktop\CasualtiesUnknownDemo\sschat
+Using config path: ./config.yaml
+Using data root: ./data
+Preferring IPv4 for DNS resolution
+
+Rot of Elizium 1.18.0
+
+Initializing plugin from C:\Users\N01Ta\Desktop\CasualtiesUnknownDemo\sschat\plugins\ss14-bridge\index.js
+1 server plugin(s) are currently loaded. Make sure you know exactly what they do, and only install plugins from trusted sources!
+
+Compiling frontend libraries...
+webpack 5.105.4 compiled [1m[32msuccessfully[39m[22m in 517 ms
+
+Launching in a browser: default...
+Rot of Elizium is listening on IPv4: 127.0.0.1:8000
+
+====================================================
+
+Go to: http://127.0.0.1:8000/ to open Rot of Elizium
+
+====================================================
+
+Extensions available for default-user [
+  { type: 'system', name: 'assets' },
+  { type: 'system', name: 'attachments' },
+  { type: 'system', name: 'caption' },
+  { type: 'system', name: 'connection-manager' },
+  { type: 'system', name: 'expressions' },
+  { type: 'system', name: 'gallery' },
+  { type: 'system', name: 'memory' },
+  { type: 'system', name: 'quick-reply' },
+  { type: 'system', name: 'regex' },
+  { type: 'system', name: 'ss14-bridge' },
+  { type: 'system', name: 'stable-diffusion' },
+  { type: 'system', name: 'token-counter' },
+  { type: 'system', name: 'translate' },
+  { type: 'system', name: 'tts' },
+  { type: 'system', name: 'vectors' }
+]
